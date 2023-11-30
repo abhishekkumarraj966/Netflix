@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "nsans-light":['Nsans Light'],
+        "nsans-medium":['Nsans Medium'],
+        "nsans-bold":['Nsans Bold'],
+      },
+    },
   },
   plugins: [],
 }
