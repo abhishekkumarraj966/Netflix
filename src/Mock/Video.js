@@ -1,6 +1,6 @@
-export const Video = [
+export const video = [
     {
         name: "My video",
-        file: "./assets/textvideo.mp4"
+        file: "./assets/video.mp4"
     }
 ]
