@@ -10,7 +10,7 @@ export const Hero = () => {
         <div>
           {video.map((data) => (
             <video width="320" height="240" controls>
-            <source src={data.file} type="video/mp4" />
+            <source src={data.videoUrl} type="video/mp4" />
             </video>
           ))}
         </div>
