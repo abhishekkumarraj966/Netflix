@@ -6,9 +6,13 @@ import Profile from './pages/Profile';
 import Signup from './pages/Signup';
 import Navbar from './components/Navbar';
 
+
 function App() {
   return (
-    <Router>
+  <div>
+    
+      <Router>
+     
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
@@ -16,7 +20,9 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/profile' element={<Profile />} />
       </Routes>
-    </Router>
+      </Router>
+    
+    </div>
   );
 }
 
